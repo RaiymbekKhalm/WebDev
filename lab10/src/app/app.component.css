@@ -1,0 +1,30 @@
+
+.main {
+  margin-top: 15px;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 25px;
+}
+
+.buttonIn{
+  width: 250px;
+  height: 35px;
+
+}
+
+.nav{
+  float: left;
+}
+
+.buttonOut{
+  width: 200px;
+  height: 35px;
+}
+
+.buttonIn:hover{
+  background-color: rgb(56, 255, 106);
+}
+
+.buttonOut:hover{
+  background-color: rgb(255, 104, 104);
+}
