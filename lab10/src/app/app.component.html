@@ -1,5 +1,5 @@
 
-<div class="main" *ngIf="!logged">
+<div class="logForm" *ngIf="!logged">
 
   <h2>Login</h2>
 
@@ -12,11 +12,12 @@
 </div>
 
 
+<div *ngIf="logged">
+<h1><a [routerLink]="'companies'">Companies</a> </h1>
 
+<button class="buttonOut" (click)="logout()">Log out</button>
+</div>
 
-  <h1><a [routerLink]="'companies'">Companies</a> </h1>
-
-  <button class="buttonOut" (click)="logout()">Log out</button>
 
   
 <router-outlet></router-outlet>

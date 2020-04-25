@@ -1,9 +1,15 @@
 
-.main {
+.logForm {
   margin-top: 15px;
   text-align: center;
   margin-top: 250px;
   font-size: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 35px;
 }
 
 .buttonIn{
